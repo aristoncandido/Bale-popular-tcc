@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <title>Bale Popular do Recife</title>
+</head>
+
+<body>
+
+
+    <div class="menu">
+        <div id="xilogravuraTopo">
+        </div>
+        <div id="menu2">
+            <ul id="lista">
+                <li><a href="#Eventos">Eventos</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Tour Virtual">Tour <span>Virtual</span></a></li>
+                <li><a href="#Noticias">Notícias</a></li>
+                <li><a href="#Horario">Horário</a></li>
+            </ul>
+        </div>
+
+
+    </div>     
+
+    <!-- CLASS PAI2 MATENDO TUDO QUE ESTÁ DENTRO POSICIONADO SEM CONFLITO COM A TELA-->
+    <div class="pai2">
+
+        <!-- LOGO DO BALE POPULAR -->
+        <div class="logo_bale">
+            <img src="imagens/xilogravuralogo.svg" alt="logo do bale popular do recife">
+        </div>
+
+        <!-- XILOGRAVURAS DO TOPO, ESQUERDA E DIREITA  -->
+        <div class="xilogravurasdotopo">
+
+            <img id="xilogravuraDireita" src="IMAGENS CORDEL/LA URSA 1/MASCARA 3.png" alt="IMAGENS CORDEL">
+            <img id="xilogravuraEsquerda" src="imagens/xilogravuraesquerda.png" alt="IMAGENS CORDEL">
+
+        </div>
+
+    </div>
+
+
+<!-- INÍCIO DE PROGRAMAÇÃO DO SITE -->
+
+    <div class="programacao">
+        <p id="fonte"> PROGRAMAÇÃO</p>
+        <p id="Eventos"></p>
+    </div>
+
+   
+    <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"> « </i>
+        <div class="carousel">
+            <img src="img.eventos/evento1.jpg" alt="img" draggable="false">
+            <img src="img.eventos/evento3.jpg" alt="img" draggable="false">
+            <img src="img.eventos/evento4.jpg" alt="img" draggable="false">
+            <img src="img.eventos/evento5.jpg" alt="img" draggable="false">
+            <img src="img.eventos/evento6.jpg" alt="img" draggable="false">
+            <img src="img.eventos/evento7.jpg" alt="img" draggable="false">
+            <img src="img.eventos/evento8.jpg" alt="img" draggable="false">
+        </div>
+        <i id="right" class="fa-solid fa-angle-right"> »</i>
+    </div>
+
+<!--FIM DA PROGRAMAÇÃO DO SITE-->
+    
+
+      
+<!-- INICIO DA GALERIA  -->
+
+    <div class="carrossel">
+        <div id="galeria-img">
+            <img src="img.galeria/img1.jpg" alt="img1" class="foto">
+        </div>
+    </div>
+
+        <div class="introducao">
+            <p id="fonte"> SOBRE O BALÉ </p>
+            <p id="Sobre"></p>
+            <p id="paragrafo" class="fonte34">O Balé Popular do Recife foi fundado em maio de 1977, quando </br>
+                André Madureira, então diretor do grupo teatral "Gente da </br>
+                gente", se juntou ao então secretário municipal de Educação e </br>
+                Cultura do Recife Ariano Suassuna, para criar um trabalho
+                <br> experimental com danças e folguedos populares<span>.</span>
+                <br>
+                <br>
+                O grupo tem como proposta e objetivo documentar, divulgar, ensinar, <br> preservar e 
+                recriar os autos e folguedos nordestinos populares, levando  </br> assim
+                a cultura pernambucana aos mais distantes locais do planeta<span>.</span>
+                O <br> balé popular chegou a fazer sucesso em Israel, Portugal Espanha, <br> França,
+                Holanda, Costa do Marfim, Cuba, Canadá, Estados Unidos, Peru <br>
+                Argentina, China e Venezuela<span>.</span></p>
+        </div>    
+
+      <!-- TOUR COMEÇA AQUI -->
+       <div class="fundotour">
+         <div class="circulo1"> </div>
+         <div class="circulo2"> </div>
+         <div class="titulotour"> <h2> FAÇA UMA TOUR VIRTUAL <br> NO BALÉ</h2></div>
+         <p id="Tour Virtual"></p>
+         <div class="textotour"><p>Interessado(a) em conhecer o espaço do Balé Popular no Centro
+         <br> Histórico de Recife através de um  tuor virtual? <br> Fácil, rápido e totalmente gratuito! </p>
+         <div>
+           <a href="https://www.youtube.com/watch?v=OX64BpczBgQ" target="_blank"> <button class="but-tour" > ACESSE</button> </a>
+         </div>
+         </div>
+        </div>
+
+    <div id="noticias">
+        <p id="fonte">NOTÍCIAS</p>
+        <p id="Noticias"></p>
+    </div>
+
+    <!--INÍCIO DO SLIDE NOTÍCIA-->
+    <header>
+        <div class="galeria"><!--A div "galeria" engloba toda parte do site voltada para as notícias-->
+          <div class="single-galeria">
+              <img src="img.noticias/certificado.jpg" alt="certificado" width="250px" />
+              <div class="info"> 
+                  <h1> Reunião solene em homenagem</h1>
+                  <p>A Câmara do Recife realizou... </p>
+                  <a   id="vermais" onclick="page('not1')"  target="_blank" >Ver Mais </a>
+              </div>  
+          </div>
+  
+          <div class="single-galeria"> <!--Criamos as div "single-galeria" para estruturar cada notícia individualmente -->
+              <img src="img.noticias/40anos.jpg" alt="40anos" width="250px" />
+              <div class="info">
+                  <h1>40 anos do Balé é comemorado...</h1>
+                  <p>Apresentação do espetáculo...</p>
+                  <a   id="vermais" onclick="page('not2')" target="_blank"> Ver Mais</a>
+              </div>
+           
+          </div>
+  
+          <div class="single-galeria">
+              <img src="img.noticias/andremadureira.jpg" alt="andre madureira" width="250px" />
+              <div class="info">
+                  <h1> André Madureira homenageado...</h1>
+                  <p>Coreógrafo e fundador do Balé...</p>
+                  <a   id="vermais" onclick="page('not3')" target="_blank"> Ver Mais</a> <!--O onclick execulta o direcionamento de um determinado conteúdo a outra página-->
+              </div>
+          </div>
+  
+          <div class="single-galeria">
+              <img src="img.noticias/armorial.jpg" alt="armorial" width="250px" />
+              <div class="info">
+                  <h1> Arte Brasileira pernambucana...</h1>
+                  <p>fundado em maio de 1977 ...</p>
+                  <a   id="vermais" onclick="page('not4')" target="_blank"> Ver Mais</a> <!--O target abre o link em uma nova janela-->
+              </div>
+          </div>
+  
+          <div class="single-galeria">
+              <img src="img.noticias/patrimonio.jpg" alt="patrimonio" width="250px" />
+              <div class="info">
+                  <h1>Balé é nomeado em patrimonio...</h1>
+                  <p>Com mais de 40 anos o Balé...</p>
+                  <a  id="vermais" onclick="page('not5')" target="_blank"> Ver Mais</a>
+              </div> 
+      
+          </div>
+        </div>
+      </header>
+      <!--FINAL DO SLIDE NOTÍCIA-->
+
+     <!--INÍCIO DA PARTE "HORÁRIO DE FUNCIONAMENTO"-->
+
+     <div class="funcionamento"> <!--A div funcionamento engloba toda a estrutura voltada a essa parte horário de funcionamento -->
+        <div class="forma1"></div><!--Usada para a composição de formas para a estilização do site-->
+        <div class="forma2"></div>
+        <div class="forma3"></div>
+        <div class="forma4"></div>
+        <div class="forma5"></div>
+        <div class="elementohorario">
+            <img src="img.elementosbody/elemento-horario.svg" alt="elemento">
+        </div>
+        <p id="Horario"></p>
+
+        <div class="dancarinos">
+            <img src="img.fucionamento/dançarinos svg.svg">
+        </div>
+
+        <div class="funcionamento2">
+            <p class="horario">HORÁRIO DE </br> FUNCIONAMENTO</p>
+
+
+            <div class=text1>
+                <p> Segunda a quarta<br> <b> Das 09:00h ás 18:00h</b><br>
+                    <br>
+                    Quinta a sexta <br> <b>Das 09:00h ás 20:00h </b>
+                 </p>
+            </div>
+
+            </p>
+
+            <div class="borda1">
+            </div>
+
+            <p>
+            <span class="borda2"></span>   
+            </p>
+
+        </div> 
+
+        <div class="atencao">
+            <h1>Atenção</h1>
+        </div>
+
+
+        <div class="paragrafo">
+            <p></br> Temos oficinas de dança basílica</br> Confecção de fantasias e aluguel</br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loja de artesanato 
+            </p>
+
+        </div>
+       
+    </div>
+    <!--FINAL DA PARTE "HORÁRIO DE FUNCIONAMENTO"-->
+
+    <!-- INÍCIO DO RODAPÉ -->
+
+    <div class="imgs">
+        <div>
+            <img src="img.rodape/cacto.png" alt="imagem do cacto" width="200px" height="200px">
+        </div>
+        <div>
+            <img src="img.rodape/Pessoas.png" alt="imagem de dançarinos" width="250px" height="200px">
+        </div>
+    </div>
+
+   <footer>
+
+        <div class="wrapper">
+            <div class="footer-box">
+
+                    <div class="direitos">
+                    /&copy; 2022 Balé Popular-Todos os direitos reservados
+                    </div>   
+
+                <div class="company-footer">
+                <div>
+                    <img id="branco" src="img.rodape/parceirosS1.svg" alt="parcerias do bale">
+                </div>        
+                </div>
+            </div>
+            <div class="footer-box" id="padding">
+            <br> <br> <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.383858350182!2d-34.87381978567063!3d-8.062270882790127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a362413287%3A0x6c047edb43ff06e8!2sR.%20do%20Bom%20Jesus%2C%20143%20-%20Recife%2C%20PE%2C%2050030-170!5e0!3m2!1spt-BR!2sbr!4v1670557753803!5m2!1spt-BR!2sbr"
+                width="300px" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+                 </iframe>
+                
+            </div>
+            <div class="footer-box" id="padd">
+
+                <h2>Contatos</h2>
+                <ul class="footer-list">
+                    <li >
+                        <img class="img-contato" src="img.rodape/botao-de-simbolo-de-telefone.png" alt="simbolo de telefone" width="30px" height="30px">
+                        
+                        <span id="tamanho"> &nbsp;&nbsp; (81) 3266-8392 &nbsp; &nbsp;</span>
+                    </li>
+
+                    <li>
+                        <img class="img-gmail" src="img.rodape/logotipo-do-gmail.png" alt="simbolo de telefone" width="30px" height="30px">
+                        <span id="tamanho"> &nbsp; &nbsp; balepopulardorecife@gmail.com</span>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+        
+    </footer>
+ 
+    <!-- FINAL DO RODAPÉ -->
+
+
+
+    <!-- COMPOSIÇÃO DE ELEMENTOS DO SITE -->
+
+    <div class="detalhes">
+
+        <img id="Detalhe1" src="./img.elementosbody/elemento3.svg" alt="IMAGENS CORDEL">
+    
+    </div>
+
+    <div class="detalhess">
+        <img id="Detalhe2" src="./img.elementosbody/elemento3.svg" alt="IMAGENS CORDEL">
+    </div>
+
+    <div class="detalhesss">
+        <img id="Detalhes3" src="./img.elementosbody/elemento4.svg" alt="IMAGENS CORDEL">
+    </div>
+
+    <div class="detalhessss">
+        <img id="Detalhes4" src="./img.elementosbody/elemento4.svg" alt="IMAGENS CORDEL">
+    </div>
+
+    <!-- FINAL DA COMPOSIÇÃO DE ELEMENTOS -->
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
